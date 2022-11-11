@@ -1,0 +1,228 @@
+body{
+    background-color: #DEDEDE;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0px;
+  }
+
+  img{
+    margin: 0;
+    margin-top: 20px;
+  }
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #088f8f;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+  position: fixed;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+  .left-column{
+    background-color: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    display: block;
+    position: fixed;
+    float: left;
+    text-align: left;
+    width: 25%;
+    height: 100%;
+    padding-left: 10px;
+    margin-right: 40px;
+    margin-top: 70px;
+    margin-left: 10px;
+  }
+
+  .right-column{
+    background-color: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    display: block;
+    float: right;
+    text-align: left;
+    width: 73%;
+    height: auto;
+    margin-top: 70px;
+    margin-right: 10px;
+  }
+
+  .links{
+    background-color: #088F8F;
+    text-align: center;
+    margin:0;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+}
+.links a{
+    background-color: #DEDEDE;
+    font-size: 20px;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    border-radius: 50px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.basic-information h2{
+  color: #088f8f;
+  font-size: 50px;
+}
+
+.basic-information p{
+  font-size: 20px;
+  padding: 1px;
+  margin: 10px;
+}
+
+  .progress{
+    width: 400px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #DEDEDE;
+    margin: 15px;
+    padding: 0;
+    margin-bottom: 25px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    display: inline-flex;
+    flex-wrap: wrap;
+  }
+
+  /* HTML CSS JS */
+  .progress-done1{
+    border-radius: 15px;
+    width: 240px;
+    height: 30px;
+    background-color: #088F8F;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* ILUSTRATOR */
+  .progress-done2{
+    border-radius: 15px;
+    width: 280px;
+    height: 30px;
+    background-color: #088F8F;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* DATABASES */
+  .progress-done3{
+    border-radius: 15px;
+    width: 220px;
+    height: 30px;
+    background-color: #088F8F;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .progress-done4{
+    border-radius: 15px;
+    width: 350px;
+    height: 30px;
+    background-color: #088F8F;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .progress-done5{
+    border-radius: 15px;
+    width: 140px;
+    height: 30px;
+    background-color: #088F8F;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  .text{
+    margin: 40px;
+  }
+
+  .text h1{
+    color: #088f8f;
+    font-size: 50px;
+  }
+
+  .text p{
+    font-size: 25px;
+    padding-bottom: 20px;
+  }
+
+  .text a{
+    font-size: 25px;
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+  }
